@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+h2{
+  font-family: 'Righteous',cursive;
+}
+p{
+  font-family: 'Voltaire', sans-serif;
+  color: #DDDDDD;
+  margin-right: 200px;
+  font-size: 18px;
+}
+small{
+  color: #b69877;
+}
+small a, p a{
+  color: #ddd;
+  text-decoration: none;
+}
+/* Header */
+header{
+  background: #5b264e;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+header a{
+  color: #ddd;
+  text-decoration: none;
+}
+header img{
+  float: left;
+}
+header h1{
+  margin-top: 20px;
+  margin-left: 80px;
+  font-family: 'Righteous', cursive;
+}
+
+/* Content */
+
+.page {
+  background: url(img/logo.png) right top no-repeat;
+}
+
+.one {
+  background-color: white;
+}
+
+.one .page-container {
+  position: absolute;
+  bottom: 100px;
+  margin-left: -400px;
+  left: 50%;
+  margin-bottom: 150px;
+  max-width: 650px;
+}
+
+.one .page-container h2{
+  font-size: 4em;
+}
+
+.one .page-container p{
+  padding: 20px 0;
+  line-height: 1.5em;
+}
+
+.two{
+  background-color: #98c73a;
+}
+
+.two .page-container{
+  position: absolute;
+  bottom: 100px;
+  margin-left: -400px;
+  left: 50%;
+  margin-bottom: 150px;
+  max-width: 650px;
+}
+
+.two .page-container h2{
+  font-size: 4em;
+}
+
+.two .page-container p{
+  padding: 20px 0;
+  line-height: 1.5em;
+}
+
+.three .page-container{
+  position: absolute;
+  bottom: 0px;
+  margin-left: -400px;
+  left: 50%;
+  margin-bottom: 150px;
+  max-width: 650px;
+}
+
+.three .page-container h2{
+  font-size: 4em;
+}
+
+.three .page-container p{
+  padding: 20px; 0;
+  line-height: 1.5em;
+}
+
+/*CUSTOM*/
+/*Header*/
+
+.no-overflow{
+  margin-top: 70px;
+}
+
+.padding30.sub-leader.text-light{
+ font-size: 16px;
+}
+
+.gambarprodukutama{
+  margin-top: -20px;
+}
+
+.button .primary .beliproduk{
+  margin-top: -40px;
+}
+
+.main-content .clear-float{
+  margin-top:80px;
+}
+
+.diskon50{
+  font-size: 25px;
+}
+
+.tile-group .no-margin .no-padding{
+  width: 100%;
+}
+
+.panelsatus{
+  height: 100%;
+}
+
+.ngambang{
+height: 100%;
+}
+
+.produkini{
+  color:black;
+  font-size:15px;
+}
